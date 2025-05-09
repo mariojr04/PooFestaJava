@@ -11,8 +11,7 @@ public class Main {
 
         for (Ingresso ingresso : ingressos) {
             System.out.println("Evento: " + ingresso.nome);
-            System.out.println("Reembolsável: " + (ingresso.isReembolsavel() ? "Sim" : "Não"));
-            System.out.println("Reembolso: R$ " + ingresso.calcularReembolso());
+            System.out.println("Reembolso: R$ " + ingresso.CalcularReembolso());
 
     }    
 }
