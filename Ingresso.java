@@ -1,4 +1,4 @@
-public class Ingresso{
+public abstract class Ingresso{
     protected String nome;
     protected Boolean ehMeia;
     protected Double preco;
@@ -40,11 +40,5 @@ public class Ingresso{
     }
 
     
-    public double CalculaReembolso(double preco, boolean ehMeia){
-        if (ehMeia = false || lote == 1){
-            return preco * 0.05;
-        }else {
-            return preco * 0.03;
-        }
-    }
+    public abstract double CalculaReembolso(double preco, boolean ehMeia);
 }
