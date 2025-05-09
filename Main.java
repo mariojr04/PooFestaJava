@@ -9,5 +9,10 @@ public class Main {
         ingressos[2] = new IngressoComum("ALOHA", true, 899.98, 2 );
         ingressos[3] = new IngressoComum("CALORADA", false, 65.44, 1);
 
+        for (Ingresso ingresso : ingressos) {
+            System.out.println("Evento: " + ingresso.nomeEvento);
+            System.out.println("Reembolsável: " + (ingresso.isReembolsavel() ? "Sim" : "Não"));
+            System.out.println("Reembolso: R$ " + ingresso.calcularReembolso());
+
     }    
 }
