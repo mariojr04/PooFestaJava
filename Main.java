@@ -11,7 +11,7 @@ public class Main {
 
         for (Ingresso ingresso : ingressos) {
             System.out.println("Evento: " + ingresso.nome);
-            System.out.println("Reembolso: R$ " + ingresso.CalcularReembolso());
+            System.out.println("Reembolso: R$ " + ingresso.CalculaReembolso());
 
     }    
 }
